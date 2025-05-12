@@ -1,0 +1,10 @@
+make sure AWS profile is added in providers
+put correct values in terraform.tfvars before running!
+
+
+before runing terra:
+aws confiure sso
+sso url : https://d-9267030733.awsapps.com/start/#
+sso region : us-west-2
+
+make sure VPN is connected (non ST)

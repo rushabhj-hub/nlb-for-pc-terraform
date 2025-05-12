@@ -1,0 +1,20 @@
+Type,ID,Name,CIDR,Availability Zone,VpcId
+VPC,vpc-05f9f83194857295b,Nutanix Cluster E3D1A2402181,-,-,-
+VPC,vpc-0e93abd9e8b666ba9,Unnamed VPC,-,-,-
+VPC,vpc-0506be2d95a5c4fb7,VPC-172.28,-,-,-
+VPC,vpc-0f4135d5e172d720f,Nutanix Cluster B3F4FF90AA7C,-,-,-
+VPC,vpc-0579a6db7c17230fc,Nutanix Cluster EB938C97A26B,-,-,-
+Subnet,subnet-0125a4c43ae8955ce,Nutanix Cluster E3D1A2402181 public,172.16.1.128/28,eu-west-1a,vpc-05f9f83194857295b
+Subnet,subnet-0433ed28b6f4cc7c7,Nutanix Cluster E3D1A2402181 FVN,172.16.0.0/24,eu-west-1a,vpc-05f9f83194857295b
+Subnet,subnet-035f1e99e09b53260,Nutanix Cluster E3D1A2402181 management,172.16.1.0/25,eu-west-1a,vpc-05f9f83194857295b
+Subnet,subnet-031b5bf5ba599d414,Nutanix Cluster E3D1A2402181 PC,172.16.1.144/28,eu-west-1a,vpc-05f9f83194857295b
+Subnet,subnet-01218ed7c8d2c1ef3,Unnamed Subnet,172.31.0.0/20,eu-west-1c,vpc-0e93abd9e8b666ba9
+Subnet,subnet-086d987aec6302900,Unnamed Subnet,172.31.16.0/20,eu-west-1a,vpc-0e93abd9e8b666ba9
+Subnet,subnet-0584bd78498a806b9,Unnamed Subnet,172.31.32.0/20,eu-west-1b,vpc-0e93abd9e8b666ba9
+Subnet,subnet-03e71625e52578dc8,uvm2,172.28.98.0/24,eu-west-1a,vpc-0506be2d95a5c4fb7
+Subnet,subnet-093c2c3f6812a5726,Nutanix Cluster 44E3792096C6 public,172.28.1.128/28,eu-west-1a,vpc-0506be2d95a5c4fb7
+Subnet,subnet-0f68f353349f406e3,sub2,10.221.11.0/24,eu-west-1a,vpc-0f4135d5e172d720f
+Subnet,subnet-0ce50593a1a511520,sec-cidr-subnet,10.128.206.0/24,eu-west-1a,vpc-0f4135d5e172d720f
+Subnet,subnet-069a37053c887faf6,uvm2-othr-cidr,10.80.50.0/24,eu-west-1a,vpc-0f4135d5e172d720f
+Subnet,subnet-0ba53e7a5174c4615,Nutanix Cluster B3F4FF90AA7C public,10.221.9.128/28,eu-west-1a,vpc-0f4135d5e172d720f
+Subnet,subnet-06cad67742d4a2c63,Nutanix Cluster EB938C97A26B public,10.33.1.128/28,eu-west-1a,vpc-0579a6db7c17230fc

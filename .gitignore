@@ -1,0 +1,10 @@
+# Terraform files to ignore
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+*.backup
+*.log
+*.tfvars
+
